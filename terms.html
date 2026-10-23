@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>服务条款 · SayPlain（人话）</title>
+<style>
+:root{--brand:#F25C2B;--ink:#2B2622;--muted:#8A8178;--paper:#F6F4EF;--card:#fff;--line:#E8E2D8}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Segoe UI",Roboto,sans-serif;background:var(--paper);color:var(--ink);line-height:1.75}
+header{background:linear-gradient(135deg,#F25C2B,#F58A3C);color:#fff;padding:40px 20px 34px;text-align:center}
+header h1{font-size:26px;font-weight:800;letter-spacing:.5px}
+header p{opacity:.92;margin-top:6px;font-size:14px}
+.langbar{max-width:820px;margin:-18px auto 0;padding:0 20px;display:flex;gap:8px;position:relative}
+.langbar button{border:1px solid var(--line);background:var(--card);padding:7px 18px;border-radius:18px;font-size:13px;cursor:pointer;color:var(--muted)}
+.langbar button.on{background:var(--ink);color:#fff;border-color:var(--ink)}
+main{max-width:820px;margin:22px auto 60px;padding:0 20px}
+section.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:26px 28px;margin-bottom:16px}
+h2{font-size:17px;margin-bottom:10px;color:var(--brand)}
+p,li{font-size:14.5px;color:#4a443e}
+ul{padding-left:22px;margin:6px 0}
+.muted{color:var(--muted);font-size:13px}
+.en{display:none}
+body.show-en .zh{display:none}
+body.show-en .en{display:block}
+footer{text-align:center;color:var(--muted);font-size:12.5px;padding:26px 20px 40px}
+a{color:var(--brand)}
+</style>
+</head>
+<body>
+<header>
+  <h1>服务条款 / Terms of Service</h1>
+  <p>SayPlain（人话）· AI 条款解读应用</p>
+</header>
+<div class="langbar">
+  <button id="btnZh" class="on" onclick="setLang(false)">中文</button>
+  <button id="btnEn" onclick="setLang(true)">English</button>
+</div>
+<main>
+
+<div class="zh">
+<section class="card">
+<h2>使用说明与条款</h2>
+<p>使用 SayPlain（以下简称"本应用"）即表示你同意以下条款。若不同意，请勿使用。</p>
+<p class="muted">更新日期：2026 年 10 月 24 日 ｜ 生效日期：2026 年 10 月 24 日</p>
+</section>
+
+<section class="card">
+<h2>一、订阅与买断</h2>
+<ul>
+<li>本应用提供免费额度（共 5 次解读）；超出部分需订阅 Pro 或购买终身版。</li>
+<li><strong>付费方案</strong>：按月订阅、按年订阅、终身买断（一次性）。价格以 App Store 购买页面显示为准。</li>
+<li><strong>付款</strong>：确认购买时向你的 Apple ID 账户扣款。</li>
+<li><strong>自动续订</strong>：月/年订阅会自动续订，除非在当前周期结束前至少 <strong>24 小时</strong>关闭自动续订。</li>
+<li><strong>计费周期</strong>：订阅将在当前周期结束前 24 小时内按所选方案价格续订。</li>
+<li><strong>管理订阅</strong>：购买后可在「设置 → App Store → Apple ID → 订阅」中管理与关闭自动续订。订阅一经购买不支持退款（法律另有规定或 Apple 退款政策允许的除外）。</li>
+<li>终身版为一次性购买，永久有效，包含后续版本更新中 Pro 功能（重大独立新品可能另行销售）。</li>
+</ul>
+</section>
+
+<section class="card">
+<h2>二、AI 解读的性质与免责声明（重要）</h2>
+<ul>
+<li>本应用基于设备端 AI 模型对文档进行<strong>语言层面的通俗化解释</strong>，<strong>不构成法律意见、医疗建议、投资建议、税务建议或任何专业意见</strong>。</li>
+<li>AI 输出可能存在错误或遗漏，解读结果仅供参考。涉及合同签署、保险理赔、医疗决策等重大事项，请咨询具备执业资格的专业人士。</li>
+<li>请勿将本应用输出的内容作为你行动的唯一依据。</li>
+<li>因依赖本应用输出而导致的任何损失，开发者在法律允许的范围内不承担责任。</li>
+</ul>
+</section>
+
+<section class="card">
+<h2>三、可接受的使用</h2>
+<ul>
+<li>你仅可解读你有权处理的文件（你本人的合同、账单、报告，或你已获得授权的文件）。</li>
+<li>禁止利用本应用处理他人隐私文件、违法内容，或将输出用于欺诈、误导等非法目的。</li>
+<li>禁止对本应用进行逆向工程、破解额度限制或干扰其正常运行。</li>
+</ul>
+</section>
+
+<section class="card">
+<h2>四、知识产权</h2>
+<p>本应用的界面、代码、文案、示例素材归开发者所有。你导入的文件及其解读结果归你所有；我们不主张对你内容的一切权利，也不会接触你的内容（全部在设备端处理）。</p>
+</section>
+
+<section class="card">
+<h2>五、服务变更与终止</h2>
+<ul>
+<li>我们可能持续更新本应用的功能；已购 Pro 功能不会因常规更新被移除。</li>
+<li>如本应用停止运营，终身版用户可在停服前继续使用已安装版本；订阅用户未使用周期的退款按 Apple 退款政策处理。</li>
+</ul>
+</section>
+
+<section class="card">
+<h2>六、条款变更</h2>
+<p>条款更新后，继续使用本应用即视为接受新条款。重大变更会在应用内提示。</p>
+</section>
+
+<section class="card">
+<h2>七、适用法律与争议</h2>
+<p>本条款适用中华人民共和国法律（不含其冲突法规则）。争议应首先友好协商解决；协商不成的，任何一方可向开发者所在地有管辖权的法院提起诉讼。若本条款任何条款被认定无效，不影响其余条款效力。</p>
+</section>
+
+<section class="card">
+<h2>八、联系我们</h2>
+<p><a href="mailto:sayplain.app@outlook.com">sayplain.app@outlook.com</a> ｜ <a href="privacy.html">隐私政策</a></p>
+</section>
+</div>
+
+<div class="en">
+<section class="card">
+<h2>Terms &amp; Conditions of Use</h2>
+<p>By using SayPlain (the "App"), you agree to the following terms. If you do not agree, please do not use the App.</p>
+<p class="muted">Last updated: October 24, 2026 ｜ Effective: October 24, 2026</p>
+</section>
+
+<section class="card">
+<h2>1. Subscriptions &amp; Lifetime Purchase</h2>
+<ul>
+<li>The App offers a free quota (5 interpretations in total). Additional use requires a Pro subscription or the Lifetime plan.</li>
+<li><strong>Plans</strong>: monthly subscription, yearly subscription, and one-time lifetime purchase. Prices shown on the App Store purchase page apply.</li>
+<li><strong>Payment</strong>: charged to your Apple ID account at confirmation of purchase.</li>
+<li><strong>Auto-renewal</strong>: subscriptions renew automatically unless auto-renew is turned off at least <strong>24 hours</strong> before the end of the current period.</li>
+<li><strong>Charge timing</strong>: the account is charged for renewal within 24 hours prior to the end of the current period at the cost of the selected plan.</li>
+<li><strong>Managing subscriptions</strong>: subscriptions may be managed and auto-renewal turned off by going to Account Settings after purchase. No cancellation of the current subscription is allowed during the active period. Refunds are handled under Apple's refund policy.</li>
+<li>The Lifetime plan is a one-time purchase providing permanent access to Pro features in future updates (major standalone products may be sold separately).</li>
+</ul>
+</section>
+
+<section class="card">
+<h2>2. Nature of AI Interpretation &amp; Disclaimer (Important)</h2>
+<ul>
+<li>The App provides <strong>plain-language explanation at the linguistic level</strong> based on an on-device AI model. It does <strong>NOT constitute legal, medical, investment, tax, or any professional advice</strong>.</li>
+<li>AI output may contain errors or omissions and is for reference only. For significant matters such as contract signing, insurance claims, or medical decisions, consult a qualified professional.</li>
+<li>Do not rely on the App's output as your sole basis for action.</li>
+<li>The developer is not liable for any loss arising from reliance on the App's output, to the extent permitted by law.</li>
+</ul>
+</section>
+
+<section class="card">
+<h2>3. Acceptable Use</h2>
+<ul>
+<li>You may only process documents you are entitled to handle (your own contracts, bills, reports, or files you have permission to access).</li>
+<li>Processing others' private documents or unlawful content, or using outputs for fraud or misleading purposes, is prohibited.</li>
+<li>Reverse engineering, bypassing quota limits, or interfering with normal operation is prohibited.</li>
+</ul>
+</section>
+
+<section class="card">
+<h2>4. Intellectual Property</h2>
+<p>The App's interface, code, copy, and sample materials belong to the developer. Documents you import and their interpretation results remain yours; we claim no rights over your content and never access it (everything is processed on-device).</p>
+</section>
+
+<section class="card">
+<h2>5. Service Changes &amp; Termination</h2>
+<ul>
+<li>We may continuously update features; purchased Pro features will not be removed in routine updates.</li>
+<li>If the App is discontinued, Lifetime users may keep using the installed version; refunds for unused subscription periods follow Apple's refund policy.</li>
+</ul>
+</section>
+
+<section class="card">
+<h2>6. Changes to These Terms</h2>
+<p>Continued use after an update constitutes acceptance. Material changes will be announced in-app.</p>
+</section>
+
+<section class="card">
+<h2>7. Governing Law</h2>
+<p>These terms are governed by the laws of the People's Republic of China (excluding conflict-of-law rules). Disputes shall first be resolved amicably; failing that, either party may bring the matter to a court of competent jurisdiction. Invalidity of any clause does not affect the remainder.</p>
+</section>
+
+<section class="card">
+<h2>8. Contact</h2>
+<p><a href="mailto:sayplain.app@outlook.com">sayplain.app@outlook.com</a> ｜ <a href="privacy.html">Privacy Policy</a></p>
+</section>
+</div>
+
+</main>
+<footer>SayPlain（人话）· Terms of Service · © 2026 SayPlain. All rights reserved.</footer>
+<script>
+function setLang(en){document.body.classList.toggle('show-en',en);document.getElementById('btnZh').classList.toggle('on',!en);document.getElementById('btnEn').classList.toggle('on',en);}
+</script>
+</body>
+</html>
