@@ -9,8 +9,8 @@
 
 ## 在线地址（GitHub Pages 启用后）
 
-- 隐私政策：https://sunjun2022.github.io/sayplain-legal/privacy.html
-- 服务条款：https://sunjun2022.github.io/sayplain-legal/terms.html
+- 隐私政策：https://sps2013.github.io/sayplain-legal/privacy.html
+- 服务条款：https://sps2013.github.io/sayplain-legal/terms.html
 
 ## 本地预览
 
